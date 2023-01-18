@@ -25,10 +25,22 @@ function App() {
       </header>
       <tbody className='List'>{rows}</tbody>
       <footer className='App-Footer'>
-        <SocialIcon network="facebook" className='Icon' url="https://www.facebook.com/hanlonlabs" target="_blank" />
-        <SocialIcon network="twitter" className='Icon' url="https://twitter.com/hanlonlab" target="_blank" />
-        <SocialIcon network="instagram" className='Icon' url="https://www.instagram.com/hanlonlab" target="_blank" />
-        <SocialIcon network="email" className='Icon' url="mailto:fscadmin@stevens.edu" />
+        <div className='Contact-Us'>
+          <span className='Interact'>Contact Us</span>
+          <span className='Address-Line'>Hanlon Financial Systems Lab</span>
+          <span className='Address-Line'>Babbio Center</span>
+          <span className='Address-Line'>525 River St</span>
+          <span className='Address-Line'>Hoboken, NJ 07030</span>
+          <span className='Address-Line'>Email: <a href="mailto:fscadmin@stevens.edu">fscadmin@stevens.edu</a></span>
+          <span className='Address-Line'>Hanlon Lab Research Room Work Phone: +1(201)216-5298</span>
+        </div>
+        <div className='Social-Media'>
+          <span className='Interact'>Follow Us</span>
+          <SocialIcon network="facebook" className='Icon' url="https://www.facebook.com/hanlonlabs" target="_blank" />
+          <SocialIcon network="twitter" className='Icon' url="https://twitter.com/hanlonlab" target="_blank" />
+          <SocialIcon network="instagram" className='Icon' url="https://www.instagram.com/hanlonlab" target="_blank" />
+          <SocialIcon network="email" className='Icon' url="mailto:fscadmin@stevens.edu" />
+        </div>
       </footer>
     </div>
   );
