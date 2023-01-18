@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/business-school/static/css/main.a43214ee.css",
-    "main.js": "/business-school/static/js/main.8917687e.js",
+    "main.js": "/business-school/static/js/main.412577b9.js",
+    "static/js/787.12f36348.chunk.js": "/business-school/static/js/787.12f36348.chunk.js",
     "index.html": "/business-school/index.html",
     "main.a43214ee.css.map": "/business-school/static/css/main.a43214ee.css.map",
-    "main.8917687e.js.map": "/business-school/static/js/main.8917687e.js.map"
+    "main.412577b9.js.map": "/business-school/static/js/main.412577b9.js.map",
+    "787.12f36348.chunk.js.map": "/business-school/static/js/787.12f36348.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a43214ee.css",
-    "static/js/main.8917687e.js"
+    "static/js/main.412577b9.js"
   ]
 }
