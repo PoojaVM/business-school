@@ -35,11 +35,13 @@ function App() {
           <span className='Address-Line'>Hanlon Lab Research Room Work Phone: +1(201)216-5298</span>
         </div>
         <div className='Social-Media'>
-          <span className='Interact'>Follow Us</span>
-          <SocialIcon network="facebook" className='Icon' url="https://www.facebook.com/hanlonlabs" target="_blank" />
-          <SocialIcon network="twitter" className='Icon' url="https://twitter.com/hanlonlab" target="_blank" />
-          <SocialIcon network="instagram" className='Icon' url="https://www.instagram.com/hanlonlab" target="_blank" />
-          <SocialIcon network="email" className='Icon' url="mailto:fscadmin@stevens.edu" />
+          <span className='Interact' style={{textAlign : 'center'}}>Follow Us</span>
+          <span>
+            <SocialIcon network="facebook" className='Icon' url="https://www.facebook.com/hanlonlabs" target="_blank" />
+            <SocialIcon network="twitter" className='Icon' url="https://twitter.com/hanlonlab" target="_blank" />
+            <SocialIcon network="instagram" className='Icon' url="https://www.instagram.com/hanlonlab" target="_blank" />
+            <SocialIcon network="email" className='Icon' url="mailto:fscadmin@stevens.edu" />
+          </span>
         </div>
       </footer>
     </div>

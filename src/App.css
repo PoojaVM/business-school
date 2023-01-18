@@ -57,6 +57,8 @@
 
 .Social-Media {
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .Icon {
@@ -74,8 +76,9 @@
   color: #fff;
   font-family: 'Saira Extra Condensed,sans-serif';
   font-style: 'normal';
-  font-weight: 700;
+  font-weight: bold;
   line-height: 2;
+  font-size: 18px;
 }
 
 /* .App {
