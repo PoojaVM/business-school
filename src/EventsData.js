@@ -21,7 +21,7 @@ export const EVENTS = [
   {
     title: 'State of Stevens in Florida',
     type: 'public',
-    time: '12:00PM to 2:00PM',
+    time: '3:00PM to 6:00PM',
     month: 1,
     year: 2023,
     date: 20,
@@ -39,7 +39,7 @@ export const EVENTS = [
   {
     title: 'Industry Torchbearers in Information Technology',
     type: 'public',
-    time: '12:00PM to 2:00PM',
+    time: '9:00PM to 12:00PM',
     month: 1,
     year: 2023,
     date: 20,
@@ -57,7 +57,7 @@ export const EVENTS = [
   {
     title: 'Julia Boorstin - When Women Lead',
     type: 'public',
-    time: '12:00PM to 2:00PM',
+    time: '1:00PM to 4:00PM',
     month: 1,
     year: 2023,
     date: 20,
@@ -75,7 +75,7 @@ export const EVENTS = [
   {
     title: `Campus Point Connection: 'Eddie Allen Aggregation' Big Band`,
     type: 'public',
-    time: '12:00PM to 2:00PM',
+    time: '6:00PM to 8:00PM',
     month: 1,
     year: 2023,
     date: 20,

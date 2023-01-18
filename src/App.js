@@ -1,6 +1,7 @@
 import './App.css';
 import { EVENTS, MONTH_NAMES } from './EventsData';
 import { SocialIcon } from 'react-social-icons'
+import logo from './Stevens_logo.png';
 
 function App() {
   const rows = EVENTS.map((item, index) => 
@@ -12,15 +13,15 @@ function App() {
       <span style={{fontFamily: 'Saira Extra Condensed,sans-serif', fontStyle: 'normal', fontSize: '0.9rem', fontWeight: 400, marginTop: '0.425rem', color: '#363d45', lineHeight: 1.125}}>{item.location}</span>
       <span style={{fontFamily: 'Saira Extra Condensed,sans-serif', fontStyle: 'normal', fontSize: '0.9rem', fontWeight: 400, color: '#363d45', lineHeight: 1.125}}>{item.time}</span>
     </div>
-    <div className='Image'>
-      <span>Image goes here</span>
-    </div>
   </div>
   );
   return (
     <div className="App">
       <header className='App-header'>
-        STEVENS SCHOOL OF BUSINESS EVENTS
+       <span style={{position: 'absolute', left: 10, display:'flex'}}>
+          <img src={logo} alt="Logo" width={350} height={80} style={{borderRadius: 20}} />
+       </span>
+        UPCOMING EVENTS
       </header>
       <tbody className='List'>{rows}</tbody>
       <footer className='App-Footer'>
