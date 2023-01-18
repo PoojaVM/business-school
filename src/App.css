@@ -21,11 +21,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 6%;
+  padding-bottom: 15%;
 }
 .Event-Container {
   padding: 10px;
-  width: 50%;
+  width: 80%;
 }
 
 .Each-Event {
